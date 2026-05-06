@@ -1,5 +1,5 @@
 from lib.data_generator import student_generator
-from testing import students, secondary_students
+from __init__ import students, secondary_students
 
 def test_display_students():
     math_students = student_generator(students, "Mathematics")
