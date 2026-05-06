@@ -1,5 +1,5 @@
 from lib.set_operations import unique_majors
-from testing import students, secondary_students
+from __init__ import students, secondary_students
 
 def test_unique_majors():
     majors = unique_majors(students)
