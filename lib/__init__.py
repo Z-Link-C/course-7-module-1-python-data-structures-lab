@@ -5,8 +5,10 @@ from set_operations import unique_majors
 class Main():
     while True:
         uInput=input("""please choose what you want to do:
-    1. Student filter based on inputted major
-    2. """)
+1. [filter 1] Student filter based on inputted major
+2. [filter 2] Generates student output based on major
+3. Returns unique majors from the student data
+Empty breaks the loop\n""")
         if uInput=='1':
             filter=input("please input a major: ")        
             filter_students_by_major(student_list=students, major=filter)
